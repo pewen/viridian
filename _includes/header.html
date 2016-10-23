@@ -1,0 +1,133 @@
+<header>
+  <div class="utilities-nav">
+    <div class="mobile mobile-nav ">
+      <div class="menu-btn"><i class="fa fa-bars"></i></div>            
+    </div>
+    <div class="mobile-cart-container">
+      <div id="auth">
+        <a href="/account/register" title="" >Crear cuenta</a>
+        <a href="/account/login/" title="" >Iniciar sesión</a>
+      </div>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span3 search-wr">
+      <div class="searchbox">
+        <form action="/search/" method="get">
+          <input class="text-input" type="text" name="q" placeholder="Buscar"/>
+          <input class="submit-button" type="submit" value=""/>
+        </form>
+      </div>
+    </div>
+    <div class="span6 logo-wr">
+      <h1 class="img logo">
+        <a href="{{ "/" | prepend: site.baseurl }} " title="" ><img  src="//d26lpennugtm8s.cloudfront.net/stores/099/970/themes/common/img-1353199647-1457963673-9ec80a11139c491773fdf7dc4dae1af81457963673.jpeg?0" alt="lamorazapatos" title="lamorazapatos"   /></a>
+      </h1>
+      <div id="no-logo-wrapper" class="hidden">
+        <div id="logo">
+          <a id="no-logo" href="{{ "/viridian" | prepend: site.baseurl }} ">lamorazapatos</a>
+        </div>
+      </div>
+    </div>
+    <div class="span3">
+      <div id="ls_cart_widget"><div class="cart-summary">
+	  <i class="fa fa-lock"></i>
+
+          <span>Carrito (0)</span>
+      </div></div>                                                                        <div id="auth" class="cart-desktop">
+        <a href="/account/register" title="" >Crear cuenta</a>
+        <a href="/account/login/" title="" >Iniciar sesión</a>
+      </div>
+    </div>
+  </div>
+  <div id="navigation">
+    <ul id="menu" class="sf-menu">
+      <li class="selected first">
+	<a href="/" >
+	  Inicio
+	</a>
+      </li>
+      <li class=" ">
+	<a href="{{ "/quienes-somos" | prepend: site.baseurl }}" >
+	  Quiénes Somos
+	</a>
+      </li>
+      <li class=" ">
+	<a href="{{ "/productos" | prepend: site.baseurl }}" >
+	  Productos
+	  <span class="arrow"><i class="fa fa-angle-right"></i></span>
+	</a>
+	<ul>
+	  <li class=" first">
+	    <a href="{{ "/sale" | prepend: site.baseurl }}" >
+	      SALE!
+	    </a>
+	  </li>
+	  <li class=" ">
+	    <a href="{{ "/chatitas" | prepend: site.baseurl }}" >
+	      Chatitas
+	      <span class="arrow"><i class="fa fa-angle-right"></i></span>
+	    </a>
+	    <ul>
+	      <li class=" first">
+		<a href="chatitas/sandalias/" >
+		  Sandalias
+		</a>
+	      </li>
+	      <li class=" ">
+		<a href="{{ "/chatitas/mocasines" | prepend: site.baseurl }}" >
+		  Mocasines
+		</a>
+	      </li>
+	      <li class=" ">
+		<a href="{{ "/chatitas/zapatillas" | prepend: site.baseurl }}" >
+		  Zapatillas
+		</a>
+	      </li>
+	      <li class=" ">
+		<a href="{{ "/chatitas/acordonados" | prepend: site.baseurl }}" >
+		  Acordonados
+		</a>
+	      </li>
+	      <li class=" ">
+		<a href="{{ "/chatitas/botas" | prepend: site.baseurl }}" >
+		  Botas
+		</a>
+	      </li>
+	    </ul>
+	  </li>
+	  <li class=" ">
+	    <a href="{{ "/taco-medio" | prepend: site.baseurl }}" >
+	      Taco medio
+	    </a>
+	  </li>
+	  <li class=" ">
+	    <a href="{{ "/taco-alto" | prepend: site.baseurl }}" >
+	      Taco alto
+	    </a>
+	  </li>
+	  <li class=" ">
+	    <a href="{{ "/mini-mora" | prepend: site.baseurl }}" >
+	      Mini-Mora
+	    </a>
+	  </li>
+	</ul>
+      </li>
+      <li class=" ">
+	<a href="{{ "/zapatos-a-pedido" | prepend: site.baseurl }}" >
+	  Zapatos a Pedido
+	</a>
+      </li>
+      <li class=" ">
+	<a href="{{ "/como-comprar" | prepend: site.baseurl }}" >
+	  Cómo Comprar
+	</a>
+      </li>
+      <li class=" ">
+	<a href="/contacto/" >
+	  Contacto
+	</a>
+      </li>
+    </ul>
+  </div>
+</header>

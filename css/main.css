@@ -1,0 +1,26 @@
+.sidebar-home {
+    width: 100%;
+    padding: 10px;
+    min-height: 275px;
+}
+
+#ls_cart_widget .cart-summary, .button, .submit_button, #newsletter input.btn, #newsletter-popup input.btn.news, button#calculate-shipping-button, .button.continue-buying, .submit_button.contact, .contact_form .submit_button, .contact_form .field input.submit_button, addresses a, .password-password .btn {
+    background-color: #f27092;
+    background: #168587;
+    color: #ffffff;
+    font-family: "Open Sans Condensed",sans-serif;
+}
+
+.sf-menu li.selected a {
+    color: #168587;
+    border-top: 1px solid #168587;
+    border-bottom: 1px solid #168587;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+    color: #168587;
+}
+
+#categories-column.sidebar-home h4 {
+    color: #168587;
+}

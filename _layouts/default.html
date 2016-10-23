@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body itemscope itemtype="http://schema.org/WebPage" itemid="body">
+    {% include script.html %}
+    <!-- Pushy Menu -->
+    {% include nav.html %}
+
+    <div class="site-overlay"></div>
+    <div id="container">
+      <div class="container">
+	
+	{% include header.html %}
+
+	<div class="page-content">
+	  <div class="wrapper">
+            {{ content }}
+	  </div>
+	</div>
+	
+      </div><!--/container -->
+      {% include footer.html %}
+    </div><!--/#container-->
+  </body>
+
+</html>

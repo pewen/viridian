@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<div class="row-fluid home-prods">
+
+  <!-- Menu lateral -->
+  <div class="span2 left-col">
+    
+    <div id="categories-column" class="pull-left hidden-phone sidebar-home">
+      <h4 class="cat-title">Categorías principales</h4>
+      <div class="sidebar">
+    	<ul id="categories-list" class="home-categories-list pull-left clear">
+    	  <li data-item="1" class="pull-left clear no-subcategory">
+	    <a href="https://lbellomo.github.io/viridian/sale/" title="SALE!">SALE!</a>
+	  </li>
+	  <li data-item="2" class="pull-left clear no-subcategory">
+	    <a href="https://lbellomo.github.io/viridian/chatitas/" title="Chatitas">Chatitas</a>
+	  </li>
+	  <li data-item="3" class="pull-left clear no-subcategory">
+	    <a href="https://lbellomo.github.io/viridian/taco-medio/" title="Taco medio">Taco medio</a>
+	  </li>
+	  <li data-item="4" class="pull-left clear no-subcategory">
+	    <a href="https://lbellomo.github.io/viridian/taco-alto/" title="Taco alto">Taco alto</a>
+	  </li>
+	  <li data-item="5" class="pull-left clear no-subcategory">
+	    <a href="https://lbellomo.github.io/viridian/mini-mora/" title="Mini-Mora">Mini-Mora</a>
+	  </li>
+	</ul>
+	<a href="#" id="show-more-cats" style="display: none;" title="Mostrar más categorías"><i class="fa fa-angle-down"></i></a>
+      </div>
+    </div><!--/#categories-column -->
+
+  </div><!--/span2 left-col -->
+
+  <!-- Productos -->
+  <div class="span10 home-grid right-col">
+
+    <div class="product-row">
+      {% for producto in site.data.productos %}
+      <div class="span3">
+	<div class="dest-gral">
+	  
+	  <div class="head">
+	    <a title="{{producto.nombre}}" class="product-image">
+	      <img  src="{{producto.img}}" alt="Modelo Helena Beige - comprar online" title="Modelo Helena Beige - comprar online" />
+	    </a>
+	  </div><!--/head -->
+
+	  <div class="title">
+	    <h3>{{producto.nombre}}</h3>
+	  </div><!--/title -->
+
+	  <div class="price " itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+	    <meta itemprop="priceCurrency" content="ARS" />
+	    <span class="price-compare">
+	      <span id="compare_price_display" class="hidden"></span>
+	    </span>
+	    <span class="price" id="price_display" itemprop="price" content="1595" class="hidden">{{producto.precio}}</span>
+	  </div><!--/price -->
+	  
+	</div><!--/dest-gral -->
+      </div><!--/span3 -->
+      {% endfor %}
+    </div><!--/product-row -->
+  </div><!--/span10 home-grid right-col -->
+
+</div><!--/row-fluid home-prods -->
+  
