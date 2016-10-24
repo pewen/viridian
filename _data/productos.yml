@@ -1,16 +1,16 @@
 - nombre: Zapato 1
-  precio: $50
+  precio: $0
   img: img/img_zap.jpg
   
 - nombre: Zapato 2
-  precio: $5
+  precio: $0
   img: img/img_zap.jpg
   
-- nombre: SUPER zapato
-  precio: $10000
+- nombre: Zapato 3
+  precio: $0
   img: img/img_zap.jpg
   
-- nombre: Zapato de ciruja
-  precio: $0.30
+- nombre: Zapato 4
+  precio: $0
   img: img/img_zap.jpg
 
